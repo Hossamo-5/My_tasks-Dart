@@ -19,4 +19,9 @@ void main(List<String> args) {
   num _result1 = _num / _num1;
   print("Your result is: $_result1");
   print("==============>");
+  const double bay = 22 / 7;
+  final int lengtih = 5;
+  double area = bay * lengtih;
+  print(area);
+  
 }
