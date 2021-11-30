@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main(List<String> args) {
   print("Start IF !↓");
 //Exam degree
@@ -17,7 +19,6 @@ void main(List<String> args) {
   } else {
     print(" F 😢");
   }
-
   print("<Start Switch !↓>");
 //The weather
   num theWeather = 67;
@@ -46,5 +47,22 @@ void main(List<String> args) {
       {
         print("nothing");
       }
+  }
+  //Calc
+  print("Please enter any number");
+  String? input = stdin.readLineSync();
+  // String input = "*";
+  num num1 = 10;
+  num num2 = 15;
+  if (input == "+") {
+    print(num1 + num2);
+  } else if (input == "-") {
+    print(num1 - num2);
+  } else if (input == "*") {
+    print(num1 * num2);
+  } else if (input == "/") {
+    print(num1 / num2);
+  } else {
+    print("Exit");
   }
 }
