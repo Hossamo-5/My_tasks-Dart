@@ -7,8 +7,7 @@ class Human {
   String? JobTitle;
   num? salary;
   num? experience;
-  void sal(){
-    print(salary! * experience!);
-  }
+  //Arrow
+  void sal()=> print(salary! * experience!);
 
 }
